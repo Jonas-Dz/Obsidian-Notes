@@ -92,3 +92,16 @@ DROP INDEX IX_Person_LastName
 ON Person.Person
 GO
 ```
+
+### Taller DDL/DML
+Se debe realizar el siguiente proceso:
+
+ACTIVIDADES
+1. Crear un índice no agrupado sobre la columna EmailAddress de la tabla Person.EmailAddress.
+2. Crear un índice compuesto utilizando las columnas City y PostalCode de la tabla Person.Address.
+3. Evaluar el rendimiento de una consulta antes y después de crear el índice.
+4. Crear un índice único en una tabla diseñada por el estudiante.
+5. Investigar qué son los índices Columnstore y presentar un ejemplo.
+
+Se debe subir el documento en pdf del proceso realizado y el archivo .sql de todo el proceso
+
